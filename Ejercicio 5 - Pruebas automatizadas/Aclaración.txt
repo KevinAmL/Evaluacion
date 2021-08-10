@@ -1,0 +1,2 @@
+Los scripts estan realizados con el framework de protractor,
+el cual trabaja con un server local de Selenium para la conexión con el navegador
