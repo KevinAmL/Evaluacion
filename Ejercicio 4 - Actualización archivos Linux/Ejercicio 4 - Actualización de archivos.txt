@@ -1,0 +1,17 @@
+cd home/ubuntu/backups
+
+mkdir michangarrito_2021-08-09
+
+cd ~
+
+cd /var/www/michangarrito
+
+sudo cp -r /var/www/michangarrito /home/ubuntu/backups/michangarrito_2021-08-09
+
+cd ~
+
+cd ..
+
+cd /home/ubuntu/michangarrito/dist
+
+sudo cp -ri /home/ubuntu/michangarrito/dist /var/www/michangarrito
